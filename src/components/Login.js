@@ -23,6 +23,7 @@ const Login = () => {
         <button className="p-4 my-6 bg-red-700 w-full rounded-lg">{isSignInForm?"Sign In":"Sign Up"}</button>
         <p className='py-4 cursor-pointer' onClick = {toggleSignInForm}>{isSignInForm?"New to Netflix? Sign Up Now":"Already Registered? Sign In Now"}</p>
       </form>
+      
     </div>
   )
 }
